@@ -52,17 +52,45 @@
 # print("Done...")
 
     ## Gessing Game --- While / else
-secret_number = 7
-guess_count = 0
-guess_limit = 3
-while guess_count < guess_limit:
-    try:
-        guess = int(input("Guess the Number: "))
-    except ValueError:
-        print("only enter a numaric value")
-    guess_count += 1
-    if guess == secret_number:
-        print("You win...")
+# secret_number = 7
+# guess_count = 0
+# guess_limit = 3
+# while guess_count < guess_limit:
+#     try:
+#         guess = int(input("Guess the Number: "))
+#     except ValueError:
+#         print("only enter a numaric value")
+#     guess_count += 1
+#     if guess == secret_number:
+#         print("You win...")
+#         break
+# else:
+#     print("You Loss...")
+
+    ## Car Game
+command = ""
+started = False
+while True:
+    command = input("Enter Command: ").upper()
+    if command == "HELP":
+        print("""
+        Start - to start car
+        Stop - to stop car
+        exit - to exit
+        """)
+    elif command == "START":
+        if started:
+            print("Car is already started")
+        else:
+            started = True
+            print("car is started... Ready to Go")
+    elif command == "STOP":
+        if not started:
+            print("Car is already stoped")
+        else:
+            started = False
+            print("car is stoped")
+    elif command == "EXIT":
         break
-else:
-    print("You Loss...")
+    else:
+        print("I don't understand the command")
