@@ -32,14 +32,21 @@
 #     print("name looks good...")
 
     ## Weight Converter
-weight = int(input("Enter you weight: "))
-unit = input("Is that weight in lbs(L) or kilograms(K): ")
+# weight = int(input("Enter you weight: "))
+# unit = input("Is that weight in lbs(L) or kilograms(K): ")
+#
+# if unit.upper() == "L":
+#     c_weight = weight * 0.45
+#     print(f"your weight in kilograms: {c_weight}")
+# elif unit.upper() == "K":
+#     c_weight = weight / 0.45
+#     print(f"your weight in pounds: {c_weight}")
+# else:
+#     print("Kindly enter a correct value.")
 
-if unit.upper() == "L":
-    c_weight = weight * 0.45
-    print(f"your weight in kilograms: {c_weight}")
-elif unit.upper() == "K":
-    c_weight = weight / 0.45
-    print(f"your weight in pounds: {c_weight}")
-else:
-    print("Kindly enter a correct value.")
+    ##While Loop
+i = 1
+while i <= 5:
+    print('#' * i)
+    i += 1
+print("Done...")
