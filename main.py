@@ -45,8 +45,24 @@
 #     print("Kindly enter a correct value.")
 
     ##While Loop
-i = 1
-while i <= 5:
-    print('#' * i)
-    i += 1
-print("Done...")
+# i = 1
+# while i <= 5:
+#     print('#' * i)
+#     i += 1
+# print("Done...")
+
+    ## Gessing Game --- While / else
+secret_number = 7
+guess_count = 0
+guess_limit = 3
+while guess_count < guess_limit:
+    try:
+        guess = int(input("Guess the Number: "))
+    except ValueError:
+        print("only enter a numaric value")
+    guess_count += 1
+    if guess == secret_number:
+        print("You win...")
+        break
+else:
+    print("You Loss...")
