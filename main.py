@@ -31,3 +31,15 @@
 # else:
 #     print("name looks good...")
 
+    ## Weight Converter
+weight = int(input("Enter you weight: "))
+unit = input("Is that weight in lbs(L) or kilograms(K): ")
+
+if unit.upper() == "L":
+    c_weight = weight * 0.45
+    print(f"your weight in kilograms: {c_weight}")
+elif unit.upper() == "K":
+    c_weight = weight / 0.45
+    print(f"your weight in pounds: {c_weight}")
+else:
+    print("Kindly enter a correct value.")
