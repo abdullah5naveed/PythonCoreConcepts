@@ -224,22 +224,48 @@
 # students['dob'] = '24-oct,1994'
 # print(students.get('dob'))
 
-#Detect the enter Number
-numbers = {
-    '0': 'zero',
-    '1': 'one',
-    '2': 'two',
-    '3': 'three',
-    '4': 'four',
-    '5': 'five',
-    '6': 'six',
-    '7': 'seven',
-    '8': 'eight',
-    '9': 'nine',
-}
-phone = input("Enter the numbers: ")
-output = ''
-for i in phone:
-    output += numbers.get(i, '!') + " "
+# #Detect the enter Number
+# numbers = {
+#     '0': 'zero',
+#     '1': 'one',
+#     '2': 'two',
+#     '3': 'three',
+#     '4': 'four',
+#     '5': 'five',
+#     '6': 'six',
+#     '7': 'seven',
+#     '8': 'eight',
+#     '9': 'nine',
+# }
+# phone = input("Enter the numbers: ")
+# output = ''
+# for i in phone:
+#     output += numbers.get(i, '!') + " "
+# print(output)
 
-print(output)
+# message = input("> ")
+# words = message.split(" ")
+# emojis = {
+#     ":)": "😊"
+# }
+# output = ""
+# for i in words:
+#     output += emojis.get(i, i) + " "
+# print(output)
+
+    ##Functions
+# def greet_user():
+#     print("Hello...")
+#     print("How are you")
+# print("i'm Calling a fuction in next line")
+# greet_user()
+
+#With Parameters
+def greet_user(first_name, last_name):
+    print(f"Hello {first_name} {last_name}...")
+    print("How are you")
+print("i'm calling a function in next line")
+greet_user(input("Enter your First_name: "), input("Enter Your last name: "))
+
+### Arguments => arrguments are the actual pice of information which we supply to any function
+### Parameters => Parameters are the place holders which we define during defination of function for receving information
