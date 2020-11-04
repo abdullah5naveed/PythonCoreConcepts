@@ -150,3 +150,49 @@
 # for x in matrix:
 #     for y in x:
 #         print(y)
+
+#     #List Methods
+# numbers = [20, 30, 40, 50]
+# print(numbers)
+# #add new item to list
+# numbers.append(60)
+# print(numbers)
+# #add new item at specific index
+# numbers.insert(0, 100)
+# print(numbers)
+# #remove any item from list
+# numbers.remove(100)
+# print(numbers)
+# #Remove last value of the list or from any index
+# numbers.pop(1)
+# print(numbers)
+# #to check index of any item in list
+# print(numbers.index(50))
+# #another way to check
+# print(40 in numbers)
+# #to cont the occurence of an item
+# print(numbers.count(20))
+# #to sort the items of list
+# numbers.sort()
+# numbers.reverse()
+# print(numbers)
+# #Make copy of list
+# nums = numbers.copy()
+# print(f"THis is copy: {nums}")
+# #remove all items from list
+# numbers.clear()
+# print(numbers)
+
+# Remove Duplicated from list
+# numbers = [2, 4, 6, 8, 6, 10, 20, 10, 4, 34, 2]
+# for i in numbers:
+#     if numbers.count(i) >= 2:
+#         numbers.remove(i)
+# print(numbers)
+# another way
+numbers = [2, 4, 6, 8, 6, 10, 20, 10, 4, 34, 2]
+unique =[]
+for i in numbers:
+    if i not in unique:
+        unique.append(i)
+print(unique)
