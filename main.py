@@ -189,10 +189,26 @@
 #     if numbers.count(i) >= 2:
 #         numbers.remove(i)
 # print(numbers)
-# another way
-numbers = [2, 4, 6, 8, 6, 10, 20, 10, 4, 34, 2]
-unique =[]
-for i in numbers:
-    if i not in unique:
-        unique.append(i)
-print(unique)
+# # another way
+# numbers = [2, 4, 6, 8, 6, 10, 20, 10, 4, 34, 2]
+# unique =[]
+# for i in numbers:
+#     if i not in unique:
+#         unique.append(i)
+# print(unique)
+
+    ##Tuples
+#tuples are immutable, or can not b changed
+# numbers = (1, 2, 3, 4)
+# print(numbers.count(2))
+#
+# #unpacking
+# numbers = [1, 2, 3]
+# #or
+# numbers = (5, 6, 7)
+# x, y, z = numbers
+# print(x)
+# print(y)
+# print(z)
+
+    ##Dictionary
