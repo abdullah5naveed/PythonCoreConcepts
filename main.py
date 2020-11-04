@@ -104,8 +104,22 @@
 # for item in range(1, 10, 2):
 #     print(item)
 
-cart = [10, 30, 40, 80]
-total = 0
-for item in cart:
-    total += item
-print(total)
+# cart = [10, 30, 40, 80]
+# total = 0
+# for item in cart:
+#     total += item
+# print(total)
+
+    ##Nested Loop
+# for x in range(4):
+#     for y in range(3):
+#         print(f"({x}, {y})")
+
+#print F in nested Loop
+# number = [5,2,5,2,2]
+# for item in number:
+#     output = ''
+#     for y in range(item):
+#         output += "X"
+#     print(output)
+
