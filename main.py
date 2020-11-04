@@ -212,3 +212,34 @@
 # print(z)
 
     ##Dictionary
+# students = {
+#     "name" : "Ali",
+#     "age" : 20,
+#     "is_register" : True
+# }
+# # print(students['name'])
+# #another Way
+# print(students.get('is_rgister', "this Key is not available"))
+# #update or add new item in Dictionary
+# students['dob'] = '24-oct,1994'
+# print(students.get('dob'))
+
+#Detect the enter Number
+numbers = {
+    '0': 'zero',
+    '1': 'one',
+    '2': 'two',
+    '3': 'three',
+    '4': 'four',
+    '5': 'five',
+    '6': 'six',
+    '7': 'seven',
+    '8': 'eight',
+    '9': 'nine',
+}
+phone = input("Enter the numbers: ")
+output = ''
+for i in phone:
+    output += numbers.get(i, '!') + " "
+
+print(output)
