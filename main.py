@@ -123,3 +123,19 @@
 #         output += "X"
 #     print(output)
 
+    ## List
+# students = ['ali', 'umair', 'umar', 'Sami', 'sohail', 'akbar']
+# print(students[1:10])
+# #to modify any index of list
+# students[0] = 'abdullah'
+# print(students)
+# print(students[0])
+
+#Find Large Number
+# numbers = [45, 356, 53262, 234, 423, 3252553254, 4532, 57, 123]
+# large_number = 0
+# for i in numbers:
+#     if i > large_number:
+#         large_number = i
+# print(large_number)
+
