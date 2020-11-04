@@ -68,29 +68,44 @@
 #     print("You Loss...")
 
     ## Car Game
-command = ""
-started = False
-while True:
-    command = input("Enter Command: ").upper()
-    if command == "HELP":
-        print("""
-        Start - to start car
-        Stop - to stop car
-        exit - to exit
-        """)
-    elif command == "START":
-        if started:
-            print("Car is already started")
-        else:
-            started = True
-            print("car is started... Ready to Go")
-    elif command == "STOP":
-        if not started:
-            print("Car is already stoped")
-        else:
-            started = False
-            print("car is stoped")
-    elif command == "EXIT":
-        break
-    else:
-        print("I don't understand the command")
+# command = ""
+# started = False
+# while True:
+#     command = input("Enter Command: ").upper()
+#     if command == "HELP":
+#         print("""
+#         Start - to start car
+#         Stop - to stop car
+#         exit - to exit
+#         """)
+#     elif command == "START":
+#         if started:
+#             print("Car is already started")
+#         else:
+#             started = True
+#             print("car is started... Ready to Go")
+#     elif command == "STOP":
+#         if not started:
+#             print("Car is already stoped")
+#         else:
+#             started = False
+#             print("car is stoped")
+#     elif command == "EXIT":
+#         break
+#     else:
+#         print("I don't understand the command")
+
+    ##For Loop
+
+# for item in "python":
+#     print(item)
+
+# ###Range function is taking 3 values, 1st starting number, 2nd ending number, 3rd jumping value
+# for item in range(1, 10, 2):
+#     print(item)
+
+cart = [10, 30, 40, 80]
+total = 0
+for item in cart:
+    total += item
+print(total)
