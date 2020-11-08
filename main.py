@@ -261,11 +261,16 @@
 # greet_user()
 
 #With Parameters
-def greet_user(first_name, last_name):
-    print(f"Hello {first_name} {last_name}...")
-    print("How are you")
-print("i'm calling a function in next line")
-greet_user(input("Enter your First_name: "), input("Enter Your last name: "))
+# def greet_user(first_name, last_name):
+#     print(f"Hello {first_name} {last_name}...")
+#     print("How are you")
+# print("i'm calling a function in next line")
+# greet_user(input("Enter your First_name: "), input("Enter Your last name: "))
 
 ### Arguments => arrguments are the actual pice of information which we supply to any function
 ### Parameters => Parameters are the place holders which we define during defination of function for receving information
+
+def square(value):
+    return value ** value
+
+print(square(int(input("Enter Your Number: "))))
