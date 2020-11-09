@@ -260,7 +260,7 @@
 # print("i'm Calling a fuction in next line")
 # greet_user()
 
-#With Parameters
+#With Parameters / Positional Arguments
 # def greet_user(first_name, last_name):
 #     print(f"Hello {first_name} {last_name}...")
 #     print("How are you")
@@ -270,7 +270,14 @@
 ### Arguments => arrguments are the actual pice of information which we supply to any function
 ### Parameters => Parameters are the place holders which we define during defination of function for receving information
 
-def square(value):
-    return value ** value
+### Arguments have two types 1.Positional & 2.Keyword Arguments.
 
-print(square(int(input("Enter Your Number: "))))
+#Key Word Arrgument
+def greet_user(first_name, last_name):
+    print(f"Hello {first_name} {last_name}...")
+    print("How are you")
+print("i'm calling a function in next line")
+greet_user(last_name="Abdullah", first_name="Ali")
+
+#Importance of keyword argumet Example
+# cal_cost(total=20, delivery=4, discount=0.2)
