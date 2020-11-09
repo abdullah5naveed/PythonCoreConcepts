@@ -299,9 +299,21 @@
 #     output = ""
 #     for i in words:
 #         output += emojis.get(i, i) + " "
-#     print(output)
+#     return output
 #
 #
 # message = input("> ")
-# emoji_msg(message)
+# result = emoji_msg(message)
+# print(result)
 
+
+#Exception Handling
+try:
+    age = int(input("Enter your Age: "))
+    income = 20000
+    average = income/age
+    print(age)
+except ValueError:
+    print("Must Enter a numaric value.")
+except ZeroDivisionError:
+    print("Age must be greater than zero.")
