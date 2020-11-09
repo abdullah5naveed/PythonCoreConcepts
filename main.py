@@ -13,7 +13,7 @@
 # print(type(weight_pounds))
 # print("Your weight in pounds is: ", weight_pounds)
 
-    ##logical Operators
+##logical Operators
 # price = 1000000
 # is_good_credit = True
 # if is_good_credit:
@@ -22,7 +22,7 @@
 #     n_price = 0.2 * price
 # print(f"Down payment is: ${n_price}")
 
-    ##Comparison Operatores
+##Comparison Operatores
 # name = input("Enter Your Name: ")
 # if len(name) < 3:
 #     print("Name is too short.")
@@ -31,7 +31,7 @@
 # else:
 #     print("name looks good...")
 
-    ## Weight Converter
+## Weight Converter
 # weight = int(input("Enter you weight: "))
 # unit = input("Is that weight in lbs(L) or kilograms(K): ")
 #
@@ -44,14 +44,14 @@
 # else:
 #     print("Kindly enter a correct value.")
 
-    ##While Loop
+##While Loop
 # i = 1
 # while i <= 5:
 #     print('#' * i)
 #     i += 1
 # print("Done...")
 
-    ## Gessing Game --- While / else
+## Gessing Game --- While / else
 # secret_number = 7
 # guess_count = 0
 # guess_limit = 3
@@ -67,7 +67,7 @@
 # else:
 #     print("You Loss...")
 
-    ## Car Game
+## Car Game
 # command = ""
 # started = False
 # while True:
@@ -95,7 +95,7 @@
 #     else:
 #         print("I don't understand the command")
 
-    ##For Loop
+##For Loop
 
 # for item in "python":
 #     print(item)
@@ -110,12 +110,12 @@
 #     total += item
 # print(total)
 
-    ##Nested Loop
+##Nested Loop
 # for x in range(4):
 #     for y in range(3):
 #         print(f"({x}, {y})")
 
-#print F in nested Loop
+# print F in nested Loop
 # number = [5,2,5,2,2]
 # for item in number:
 #     output = ''
@@ -123,7 +123,7 @@
 #         output += "X"
 #     print(output)
 
-    ## List
+## List
 # students = ['ali', 'umair', 'umar', 'Sami', 'sohail', 'akbar']
 # print(students[1:10])
 # #to modify any index of list
@@ -131,7 +131,7 @@
 # print(students)
 # print(students[0])
 
-#Find Large Number
+# Find Large Number
 # numbers = [45, 356, 53262, 234, 423, 3252553254, 4532, 57, 123]
 # large_number = 0
 # for i in numbers:
@@ -139,7 +139,7 @@
 #         large_number = i
 # print(large_number)
 
-    ## 2-D List
+## 2-D List
 # matrix = [
 #     [1, 2, 3],
 #     [4, 5, 6],
@@ -197,8 +197,8 @@
 #         unique.append(i)
 # print(unique)
 
-    ##Tuples
-#tuples are immutable, or can not b changed
+##Tuples
+# tuples are immutable, or can not b changed
 # numbers = (1, 2, 3, 4)
 # print(numbers.count(2))
 #
@@ -211,7 +211,7 @@
 # print(y)
 # print(z)
 
-    ##Dictionary
+##Dictionary
 # students = {
 #     "name" : "Ali",
 #     "age" : 20,
@@ -243,6 +243,7 @@
 #     output += numbers.get(i, '!') + " "
 # print(output)
 
+#Emoji Print
 # message = input("> ")
 # words = message.split(" ")
 # emojis = {
@@ -253,14 +254,14 @@
 #     output += emojis.get(i, i) + " "
 # print(output)
 
-    ##Functions
+##Functions
 # def greet_user():
 #     print("Hello...")
 #     print("How are you")
 # print("i'm Calling a fuction in next line")
 # greet_user()
 
-#With Parameters / Positional Arguments
+# With Parameters / Positional Arguments
 # def greet_user(first_name, last_name):
 #     print(f"Hello {first_name} {last_name}...")
 #     print("How are you")
@@ -272,12 +273,35 @@
 
 ### Arguments have two types 1.Positional & 2.Keyword Arguments.
 
-#Key Word Arrgument
-def greet_user(first_name, last_name):
-    print(f"Hello {first_name} {last_name}...")
-    print("How are you")
-print("i'm calling a function in next line")
-greet_user(last_name="Abdullah", first_name="Ali")
+# Key Word Arrgument
+# def greet_user(first_name, last_name):
+#     print(f"Hello {first_name} {last_name}...")
+#     print("How are you")
+# print("i'm calling a function in next line")
+# greet_user(last_name="Abdullah", first_name="Ali")
 
-#Importance of keyword argumet Example
+# Importance of keyword argumet Example
 # cal_cost(total=20, delivery=4, discount=0.2)
+
+# Use of Return in Functions
+# def square(number):
+#     return number * number
+#
+#
+# print(square(3))
+
+#Print Emoji Function
+# def emoji_msg(message):
+#     words = message.split(" ")
+#     emojis = {
+#         ":)": "😊"
+#     }
+#     output = ""
+#     for i in words:
+#         output += emojis.get(i, i) + " "
+#     print(output)
+#
+#
+# message = input("> ")
+# emoji_msg(message)
+
