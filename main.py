@@ -308,12 +308,46 @@
 
 
 #Exception Handling
-try:
-    age = int(input("Enter your Age: "))
-    income = 20000
-    average = income/age
-    print(age)
-except ValueError:
-    print("Must Enter a numaric value.")
-except ZeroDivisionError:
-    print("Age must be greater than zero.")
+# try:
+#     age = int(input("Enter your Age: "))
+#     income = 20000
+#     average = income/age
+#     print(age)
+# except ValueError:
+#     print("Must Enter a numaric value.")
+# except ZeroDivisionError:
+#     print("Age must be greater than zero.")
+
+#classes
+# #naming convention for classes are known as pascal or camel convention.
+# #Class is the blue print & object is an instance of a class
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+#
+#     def draw(self):
+#         print("Draw")
+#
+#     def move(self):
+#         print("Move")
+#
+#
+# point1 = Point(20, 30)
+#
+# print(point1.x)
+#
+# point2 = Point(1, 2)
+# print(point2.y)
+
+# class Human:
+#     def __init__(self, name):
+#         self.name = name
+#
+#     def talk(self):
+#         print(f"{self.name} is Talking")
+#
+#
+# man = Human("Umair")
+# man.talk()
+
