@@ -1,4 +1,5 @@
 import ConverterModule, Utilities
+from learning import python_learning
 
 # name = "john Smith"
 # age = 20
@@ -203,7 +204,7 @@ import ConverterModule, Utilities
 # tuples are immutable, or can not b changed
 # numbers = (1, 2, 3, 4)
 # print(numbers.count(2))
-#
+
 # #unpacking
 # numbers = [1, 2, 3]
 # #or
@@ -384,6 +385,6 @@ import ConverterModule, Utilities
 ### Packeges
 # pakage is a container for multiple modules. Package is a directory or module.
 
-import learning.python_learning
 
-learning.python_learning.learn_python()
+
+# python_learning.learn_python()
