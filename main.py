@@ -1,3 +1,5 @@
+import ConverterModule
+
 # name = "john Smith"
 # age = 20
 # is_new = True
@@ -351,3 +353,27 @@
 # man = Human("Umair")
 # man.talk()
 
+#Inharitance
+# class mammal:
+#     def walk(self):
+#         print("Walk")
+#
+#
+# class dog(mammal):
+#     def bark(self):
+#         print("Bark")
+#
+#
+# class cat(mammal):
+#     def cute(self):
+#         print("cats are cute")
+#
+#
+# dog1 = dog()
+# dog1.walk()
+#
+# cat1 = cat()
+# cat1.cute()
+
+# #Calling Module
+# print(ConverterModule.lbs_to_kg(160))
